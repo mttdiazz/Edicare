@@ -44,7 +44,7 @@ We would like to express our gratitude to our professors and fellow students for
 
 - Mateo Macagni Diaz
   - Email: mateomacagnidiaz@gmail.com
-  - GitHub: [mateomacagni](http://github.com/mateomacagni)
+  - GitHub: [mateomacagni](http://github.com/mttdiazz)
 
 - Pedro Ortiz de Guinea
   - Email: peportizdg@gmail.com

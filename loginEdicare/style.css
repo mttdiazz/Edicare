@@ -1,0 +1,448 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background-color: purple;
+  background-image: url("img/backgr.jpg");
+}
+
+.wrapper-main {
+  width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  width: calc(100% - 30px);
+  height: 60px;
+  padding: 0 15px;
+  background-color: #FFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-header-main {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-logo {
+  width: 60px;
+  height: 40px;
+  padding-right:0px;
+}
+
+.nav-header-main img {
+  height: 100%;
+}
+
+.nav-header-main ul {
+  height: 100%;
+}
+
+.nav-header-main ul li {
+  list-style: none;
+  float: left;
+  height: 110%;
+}
+
+.nav-header-main ul li a {
+  display: block;
+  height: 110%;
+  padding: 0 10px;
+  padding-bottom: 10px; 
+  border-radius: 6px;
+  line-height: 37px;
+  font-family: arial;
+  font-size: 16px;
+  color: #111;
+  text-transform: uppercase;
+}
+
+.header-login {
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-login form {
+  margin-left: 125px;
+  height: 100%;
+  
+}
+
+.header-login form input {
+  height: 100%;
+  width: 160px;
+  padding: 0 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #F6F6F6;
+  float: left;
+  margin-left: 8px;
+  font-family: arial;
+}
+
+.header-login form button {
+  height: 100%;
+  padding: 0 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: black;
+  margin-left: 8px;
+  font-family: arial;
+  font-size: 13px;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid #000000; 
+}
+.header-signup {
+  height: 90%;
+  width: 100px;
+  padding: 0 6px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 8px;
+  font-family: arial;
+  font-size: 13px;
+  line-height: 36px;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid #000000; 
+}
+.header-salir{
+  padding-left: 850px;
+}
+
+main {
+  padding-top: 20px;
+}
+
+.section-default {
+  width: 97%;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: transparent;
+}
+
+.login-status {
+  text-align: center;
+  font-size: 26px;
+  font-family: arial;
+  color: #d9d9d9;
+}
+.login-titulo{
+  text-align: center;
+  font-size: 35px;
+  font-family: arial;
+  color: white;
+  background-color: transparent;
+}
+.login-subtitulo{
+  text-align: center;
+  font-size: 25px;
+  font-family: arial;
+  color: white;
+  background-color: transparent;
+}
+
+h1 {
+  text-align: center;
+  font-size: 26px;
+  font-family: arial;
+  color: #111;
+}
+.botonSuperAdmin{
+  background-color: #555555;
+  border: 1pt solid black;
+  font-family: arial;
+  color: white;
+  margin-top: 33.1%;
+  margin-left: 88.3%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+/* signup.php */
+
+.section-registro {
+  width: 97%;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: white;
+}
+.form-signup {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 200px;
+}
+
+.form-signup input {
+  width: calc(100% - 30px);
+  height: 30px;
+  padding: 0 15px;
+  margin-bottom: 6px;
+  border: 2px solid #CCC;
+  border-radius: 4px;
+  border-color: black;
+  background-color: #F6F6F6;
+  float: left;
+  font-family: arial;
+}
+
+.form-signup button {
+  display: block;
+  height: 40px;
+  padding: 0 10px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 4px;
+  background-color: black;
+  font-family: arial;
+  font-size: 13px;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+}
+.signuperror {
+  padding-top: 14px;
+  font-family: arial;
+  font-size: 16px;
+  color: red;
+  text-align: center;
+}
+
+.signupsuccess {
+  padding-top: 14px;
+  font-family: arial;
+  font-size: 16px;
+  color: green;
+  text-align: center;
+}
+
+
+/*Errores del login*/
+.login-error{
+  font-family: arial;
+  font-size:16px;
+  color:white;
+  text-shadow: 1px 1px black;
+  text-align: center;
+  background-color: red;
+  border-radius: 5px;
+  width: 20%;
+  margin-left: 40%;
+  float: center;
+  padding-top:10px;
+  padding-bottom:10px;
+  border: 2px solid black;
+}
+/*'Sobre Edicare' page*/
+h2{
+  text-align: center;
+  background-color: transparent;
+  color:white;
+  text-shadow: 1px 1px black;
+  width: 50%;
+  margin-left: 25%;
+  margin-top:20px;
+  border-radius: 5px;
+}
+.login-subtituloAU{
+  text-align: center;
+  font-size: 25px;
+  font-family: arial;
+  color: white;
+  background-color: transparent;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+/*Error cuando intenta acceder sin haberse logueado*/
+
+.wrongPage{
+  font-family: arial;
+  font-size:16px;
+  color:white;
+  text-shadow: 1px 1px black;
+  text-align: center;
+  background-color: red;
+  border-radius: 5px;
+  width: 20%;
+  margin-left: 40%;
+  float: center;
+  margin-top: 2px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border: 2px solid black;
+}
+/*Account settings */
+.datosUser{
+  margin-left: 20%;
+  text-align: center;
+  font-size: 25px;
+  font-family: arial;
+  color: white;
+  width: 60%;
+  align-content: center
+}
+table, th, td {
+  border: 1px solid black;
+}
+th{
+  background-color: purple;
+}
+td{
+  background-color: gray;
+}
+.editar-submit{
+  background-color: #555555;
+  border: none;
+  color: white;
+  margin-left: 200px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+/*Reserva.php*/
+.labelSelectorFecha{
+  background-color: purple;
+  margin-left: 40%;
+  text-align: center;
+  font-size: 25px;
+  font-family: arial;
+  color: white;
+  width: 20%;
+  align-content: center;
+  border: 1px solid black;
+}
+.selectorFecha{
+  position: relative;
+  margin-left: 40%;
+} 
+.botreserva{
+  position: fixed;
+  background-color: #555555;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 2px 49.5px;
+  border: 1pt solid black;
+}
+.botreserva:hover{
+  background-color: gray;
+}
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+  font-family: Arial;
+  border: 1px solid black;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: purple;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: purple;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/*Cancelar Reservas*/
+.cancelarReservas-submit{
+  background-color: #555555;
+  padding: 8px 8px;
+  width: 22%;
+  border: 1pt solid black;
+  font-family: arial;
+  color: white;
+  margin-left: 38%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.cancelarReservas-submit:hover{
+  background-color: gray;
+}
+.logos{
+  width: 30px;
+  height: 30px;
+  margin-left: 38%;
+  position: fixed;
+}
+.hacer-reserva{
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 4px 4px;
+  margin-left: 45%;
+  margin-top: 10px;
+  font-family: arial;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.hacer-reserva:hover{
+  background-color: gray;
+}

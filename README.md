@@ -20,7 +20,7 @@ This project was developed as a requirement for the "Programacion Web" subject a
 
 ## Installation and Usage
 
-1. Clone the repository: `git clone https://github.com/your-username/edicare.git`
+1. Clone the repository: `git clone https://github.com/mttdiazz/edicare.git`
 2. Import the database: Use the provided SQL file to import the database structure and sample data.
 3. Configure the database connection: Update the database credentials in the application's configuration file.
 4. Deploy the application: Set up a web server (such as Apache or Nginx) and configure it to serve the Edicare application.
